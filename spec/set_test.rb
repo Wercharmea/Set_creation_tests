@@ -2,8 +2,7 @@ require "httparty"
 require "json"
 
 RSpec.describe "first_spec" do
-  resp = HTTParty.get("http://i1-qa.adis.ws/s/jenny2/942705401_IS.json")
-  set_content = JSON.parse(resp.body)
+
 
   it "should have items" do
     expect(set_content["items"].length).to eq(6)

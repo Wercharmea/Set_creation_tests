@@ -1,0 +1,63 @@
+{
+"name": "942705401_IS",
+"items": [
+{
+"type": "video",
+"name": "942705401_main",
+"src": "http://i1-qa.adis.ws/v/jenny2/942705401_main",
+"title": null,
+"updated": "1970-01-01 00:00:00",
+"duration": 0,
+"description": null,
+"mainLink": null,
+"mainThumb": {
+"src": "http://i1-qa.adis.ws/v/jenny2/942705401_main/thumbs/"
+}
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/jenny2/942705401_test-descr_main",
+"width": 640,
+"height": 382,
+"format": "JPEG",
+"opaque": "true"
+},
+{
+"type": "video",
+"name": "942705401_1",
+"src": "http://i1-qa.adis.ws/v/jenny2/942705401_1",
+"title": "942705401_1.mp4",
+"updated": "2017-08-03 11:02:59",
+"duration": 4807,
+"description": null,
+"mainLink": null,
+"mainThumb": {
+"src": "http://i1-qa.adis.ws/v/jenny2/942705401_1/thumbs/b009bfca-6a8f-493b-b332-ccdade6120f0"
+}
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/jenny2/942705401_nero-marble_room",
+"width": 225,
+"height": 225,
+"format": "JPEG",
+"opaque": "true"
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/jenny2/942705401_bianco-carrara-polished_921100256_nero-mable_room10",
+"width": 1280,
+"height": 720,
+"format": "JPEG",
+"opaque": "true"
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/jenny2/942705401_tt_942705401_des_942705401_descr11_room7",
+"width": 225,
+"height": 225,
+"format": "JPEG",
+"opaque": "true"
+}
+]
+}
