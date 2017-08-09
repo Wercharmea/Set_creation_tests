@@ -21,3 +21,5 @@ puts all_regex
 # puts set_content
 puts output_set_name == template["name"]
 puts template["items"].all? { |item| output_asset_names.include? item }
+puts (output_asset_names.each.match(all_regex)).to be(true)
+# puts output_asset_names
