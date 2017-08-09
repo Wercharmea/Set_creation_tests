@@ -12,14 +12,16 @@ output_asset_names = json["items"].map do |item|
   asset_name = src.split('/').last
   asset_name
 end
+
 # config
 config_file = open('./fixtures/config.json')
 config = JSON.parse(config_file.read)
-all_regex = config["allProdRegEx"]
+# all_regex = config["allProdRegEx"]
+config_yaml = config.to_yaml
+all_regex = config_yaml[allProdRegEx]
 puts all_regex
-
-# puts set_content
-puts output_set_name == template["name"]
-puts template["items"].all? { |item| output_asset_names.include? item }
-puts (output_asset_names.each.match(all_regex)).to be(true)
-# puts output_asset_names
+#
+# #asset_names.all? { |e| e.match(/^([0-9]{9}).*$/)  }
+# # puts set_content
+# puts output_set_name == template["name"]
+#  asset_names.all? { |e| e.match(/^([0-9]{9}).*$/)  }

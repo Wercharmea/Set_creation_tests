@@ -1,27 +1,26 @@
 require "httparty"
 require "json"
 
-RSpec.describe "first_spec" do
+RSpec.describe "set_test" do
+# tests that set_content matches all_regex
+# config file initialize and parse
 
+config_file = open('./fixtures/config.json')
+config = JSON.parse(config_file.read)
+all_regex = config["allProdRegEx"]
 
-  it "should have items" do
-    expect(set_content["items"].length).to eq(6)
+# set_content initialize
+file = open("./fixtures/set_content.json")
+json = JSON.parse(file.read)
+output_set_name = json["name"]
 
-  end
-
-  it "should have video" do
-    expect(set_content["items"].any? { |h| h["type"] == 'video'  }).to be(true)
-
-  end
-
-  it "should follow naming convention" do
-     expect(set_content["items"][5]["src"].split("/").last.match(/^[0-9]{9}_[0-9a-z-]+_[0-9]{9}_[0-9a-z-]+_([0-9]{9})_[0-9a-z-]+_room([0-9]{1,2})?$/).nil?).to be(false)
-
-  end
-
-  it "should  not match" do
-     expect(set_content["items"][3]["src"].split("/").last.match(/^[0-9]{9}_[0-9a-z-]+_test?$/).nil?).to be(true)
-
-  end
+output_asset_names = json["items"].map do |item|
+  src = item["src"]
+  asset_name = src.split('/').last
+  asset_name
+end
+it "should match all_regex" do
+  asset_names.all? { |e| e.match(/^([0-9]{9}).*$/)  }
+end
 
 end
