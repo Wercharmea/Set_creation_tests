@@ -12,6 +12,11 @@ output_asset_names = json["items"].map do |item|
   asset_name = src.split('/').last
   asset_name
 end
+# config
+config_file = open('./fixtures/config.json')
+config = JSON.parse(config_file.read)
+all_regex = config["allProdRegEx"]
+puts all_regex
 
 # puts set_content
 puts output_set_name == template["name"]
