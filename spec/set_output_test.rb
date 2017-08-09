@@ -16,12 +16,12 @@ RSpec.describe "set_output_test" do
     asset_name
   end
 
-it "should be equal to template name" do
-  output_set_name.should eql(template["name"])
-end
+  it "should be equal to template name" do
+    expect(output_set_name).to eq(template["name"])
+  end
 
-it "should include template items" do
-  template["items"].all? { |item| output_asset_names.include? item }
-end
+  it "should include template items" do
+    expect(output_asset_names).to include(*template['items'])
+  end
 
 end
