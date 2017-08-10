@@ -16,12 +16,13 @@ end
 # config
 config_file = open('./fixtures/config.json')
 config = JSON.parse(config_file.read)
-# all_regex = config["allProdRegEx"]
-config_yaml = config.to_yaml
-all_regex = config_yaml[allProdRegEx]
+all_regex = config["allProdRegEx"]
+# config_yaml = config.to_yaml
+# all_regex_yaml = config_yaml["allProdRegEx"]
 puts all_regex
-#
-# #asset_names.all? { |e| e.match(/^([0-9]{9}).*$/)  }
+puts output_asset_names.all? { |e| e.match(all_regex)  }
+#puts asset_names
+#asset_names.all? { |e| e.match(/^([0-9]{9}).*$/)  }
 # # puts set_content
 # puts output_set_name == template["name"]
 #  asset_names.all? { |e| e.match(/^([0-9]{9}).*$/)  }
