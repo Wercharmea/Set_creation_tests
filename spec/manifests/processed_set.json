@@ -1,0 +1,53 @@
+{
+"name": "TUC-10000_R_SET",
+"items": [
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/Argos/TUC-10000_R_Z002",
+"width": 600,
+"height": 564,
+"format": "PNG",
+"opaque": "false"
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/Argos/TUC-10000_R_Z003",
+"width": 600,
+"height": 564,
+"format": "PNG",
+"opaque": "false"
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/Argos/TUC-98764_R_Z007",
+"width": 600,
+"height": 564,
+"format": "PNG",
+"opaque": "false"
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/Argos/TUC-10000_R_Z005",
+"width": 600,
+"height": 564,
+"format": "PNG",
+"opaque": "false"
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/Argos/TUC-10000_R_Z006",
+"width": 600,
+"height": 564,
+"format": "PNG",
+"opaque": "false"
+},
+{
+"type": "img",
+"src": "http://i1-qa.adis.ws/i/Argos/TUC-10000_R_Z011",
+"width": 600,
+"height": 564,
+"format": "PNG",
+"opaque": "false"
+}
+]
+}

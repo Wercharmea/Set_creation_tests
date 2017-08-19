@@ -1,0 +1,82 @@
+{
+  "assets": [
+    {
+      "name": "TUC-10000_R_Z001",
+      "url": "https://www.ancientfuturefaithnetwork.org/wp-content/uploads/2016/01/free.jpg",
+      "seq": 1,
+      "set": ["TUC-10000_R_SET", "TUC-10001_R_SET", "TUC-10002_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z010",
+      "url": "https://www.ancientfuturefaithnetwork.org/wp-content/uploads/2016/01/free.jpg",
+      "seq": 1,
+      "set": ["TUC-10003_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z011",
+      "url": "http://dev-solutions.s3-eu-west-1.amazonaws.com/jenny/Argos%20tu%20clothing/Images/33008805.jpg",
+      "seq": 1,
+      "set": ["TUC-10003_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z011",
+      "url": "http://dev-solutions.s3-eu-west-1.amazonaws.com/jenny/Argos%20tu%20clothing/Images/33008805.jpg",
+      "seq": 100,
+      "set": ["TUC-10000_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z002",
+      "url": "http://www.bigfoto.com/stones-background.jpg",
+      "seq": 2,
+      "set": ["TUC-10000_R_SET", "TUC-10001_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z003",
+      "url": "http://dev-solutions.s3-eu-west-1.amazonaws.com/jenny/Argos%20tu%20clothing/Images/33008805.jpg",
+      "seq": 3,
+      "set": ["TUC-10000_R_SET", "TUC-10001_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z004",
+      "url": "https://bufferblog-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/free-image-sources.png",
+      "seq": 4,
+      "set": ["TUC-10000_R_SET", "TUC-10002_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z005",
+      "url": "https://www.designforfounders.com/wp-content/uploads/2015/01/freedigitalphotos.jpg",
+      "seq": 5,
+      "set": ["TUC-10000_R_SET", "TUC-10001_R_SET", "TUC-10002_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z006",
+      "url": "https://recodetech.files.wordpress.com/2014/04/free.png",
+      "seq": 6,
+      "set": ["TUC-10000_R_SET", "TUC-10001_R_SET"]
+    },
+    {
+      "name": "TUC-98764_R_Z007",
+      "url": "http://dev-solutions.s3-eu-west-1.amazonaws.com/jenny/Argos%20tu%20clothing/Images/33016336.jpg",
+      "seq": 4,
+      "set": ["TUC-10000_R_SET", "TUC-98764_R_SET", "TUC-98763_R_SET", "TUC-10001_R_SET"]
+    },
+    {
+      "name": "TUC-10000_R_Z008",
+      "url": "http://dev-solutions.s3-eu-west-1.amazonaws.com/jenny/Argos%20tu%20clothing/Images/33016336.jpg",
+      "seq": 2,
+      "set": ["TUC-98765_R_SET", "TUC-98764_R_SET", "TUC-98763_R_SET"]
+    },
+    {
+      "name": "TUC-98765_R_Z009",
+      "url": "http://dev-solutions.s3-eu-west-1.amazonaws.com/jenny/Argos%20tu%20clothing/Images/33016336.jpg",
+      "seq": 3,
+      "set": ["TUC-98765_R_SET", "TUC-98764_R_SET", "TUC-98763_R_SET"]
+    },
+    {
+      "name": "TUC-98765_R_Z010",
+      "url": "http://www.argos.co.uk/wcsstore/argos/en_GB/images/suppliershop/emma-bunton/eb-slide-2015_17-1.jpg",
+      "seq": 4,
+      "set": ["TUC-98765_R_SET", "TUC-98764_R_SET", "TUC-98763_R_SET"]
+    }
+  ]
+}
